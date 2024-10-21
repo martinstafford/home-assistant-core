@@ -56,5 +56,8 @@
         }
       }
     }
-  }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}c:\\dev\\daikin_d3net\\custom_components\\daikin_d3net,target=${containerWorkspaceFolder}/config/custom_components/daikin_d3net,type=bind"
+  ]
 }
